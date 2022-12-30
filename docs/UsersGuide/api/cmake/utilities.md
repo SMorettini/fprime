@@ -121,7 +121,7 @@ Checks if a given dependency should be supplied to the linker only. These will n
 but will be supplied as link libraries. These tokens are of several types:
 
 1. Linker flags: starts with -l
-2. Existing Files: accounts for pre-existing libraries shared and otherwise
+2. Existing Files: accounts for preexisting libraries shared and otherwise
 
 OUTPUT_VAR: variable to set in PARENT_SCOPE to TRUE/FALSE
 TOKEN: token to check if "linker only"
@@ -161,6 +161,13 @@ Reads a set of variables from a newline delimited test base. This will read each
 based on the number of arguments passed in.
 
 
+## Function `full_path_from_build_relative_path`:
+
+Creates a full path from the shortened build-relative path.
+-**SHORT_PATH:** build relative path
+Return: full path from relative path
+
+
 ## Function `get_nearest_build_root`:
 
 Finds the nearest build root from ${FPRIME_BUILD_LOCATIONS} that is a parent of DIRECTORY_PATH.
@@ -190,10 +197,11 @@ Gets the expected tool version named using version identifier VID to name the to
 file. This will be returned via the variable supplied in FILL_VARIABLE setting it in PARENT_SCOPE.
 
 
-## Function `set_hash_flag`:
+## Function `set_assert_flags`:
 
 Adds a -DASSERT_FILE_ID=(First 8 digits of MD5) to each source file, and records the output in
-hashes.txt. This allows for asserts on file ID not string.
+hashes.txt. This allows for asserts on file ID not string. Also adds the -DASSERT_RELATIVE_PATH
+flag for handling relative path asserts.
 
 
 ## Function `print_property`:

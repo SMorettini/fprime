@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['packetupdatemode_3108',['PacketUpdateMode',['../namespace_svc.html#a11ca74bd00da6f5f3779fe980110f79e',1,'Svc']]],
-  ['parity_3109',['PARITY',['../class_drv_1_1_linux_serial_driver_component_impl.html#ad9452c02c517a8491be9e7b7eb8f7f8e',1,'Drv::LinuxSerialDriverComponentImpl']]]
+  ['queueblocking_3440',['QueueBlocking',['../class_os_1_1_queue.html#a766caf06bbcd37473e630d0d2aa4d1ff',1,'Os::Queue']]],
+  ['queuestatus_3441',['QueueStatus',['../class_os_1_1_queue.html#a0c0ecc2d5d5be2f2f3f0ed94672f778b',1,'Os::Queue']]]
 ];

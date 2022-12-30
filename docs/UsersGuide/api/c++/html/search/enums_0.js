@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['baud_5frate_3094',['BAUD_RATE',['../class_drv_1_1_linux_serial_driver_component_impl.html#a84c9b7f8a8e41db9575734e965a3a99e',1,'Drv::LinuxSerialDriverComponentImpl']]]
+  ['bufferrepeaterfailureoption_3426',['BufferRepeaterFailureOption',['../class_svc_1_1_buffer_repeater.html#a56f281f770455430c635b21162c429fe',1,'Svc::BufferRepeater']]]
 ];

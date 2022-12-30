@@ -1,24 +1,26 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -50,11 +52,86 @@ var NAVTREE =
       ] ],
       [ "Run Tests", "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md22", null ]
     ] ],
+    [ "Communication Adapter Interface", "md_docs__design_communication_adapter_interface.html", [
+      [ "Ports", "md_docs__design_communication_adapter_interface.html#autotoc_md24", [
+        [ "comDataIn Description", "md_docs__design_communication_adapter_interface.html#autotoc_md25", null ],
+        [ "comDataOut Description", "md_docs__design_communication_adapter_interface.html#autotoc_md26", null ],
+        [ "comStatus Description", "md_docs__design_communication_adapter_interface.html#autotoc_md27", null ]
+      ] ],
+      [ "Communication Queue Protocol", "md_docs__design_communication_adapter_interface.html#autotoc_md28", null ],
+      [ "Framer Status Protocol", "md_docs__design_communication_adapter_interface.html#autotoc_md29", null ],
+      [ "Communication Adapter Protocol", "md_docs__design_communication_adapter_interface.html#autotoc_md30", null ]
+    ] ],
+    [ "Design and Philosophy of F´", "md_docs__design_general.html", null ],
+    [ "F´ Memory Management", "md_docs__design_memory.html", null ],
+    [ "F´ Numerical Types", "md_docs__design_numerical_types.html", [
+      [ "Fixed Width Types", "md_docs__design_numerical_types.html#autotoc_md34", null ],
+      [ "F´ Logical Integer Type Design", "md_docs__design_numerical_types.html#autotoc_md35", [
+        [ "Platform Configured Types", "md_docs__design_numerical_types.html#autotoc_md36", null ],
+        [ "Configurable Integer Types", "md_docs__design_numerical_types.html#autotoc_md37", null ]
+      ] ]
+    ] ],
     [ "Fw Components, Ports, and Classes", "fw.html", "_fw" ],
     [ "Os Components Ports and Classes", "os.html", "_os" ],
     [ "Svc Components, Ports, and Classes", "svc.html", "_svc" ],
     [ "Drv Components and Classes", "drv.html", "_drv" ],
     [ "Utils Classes", "utils.html", "_utils" ],
+    [ "Svc::BufferRepeater Component", "svc_buffer_repeater_component.html", [
+      [ "Svc::BufferRepeater: Buffer Repeater (Passive Component)", "svc_buffer_repeater_component.html#autotoc_md267", [
+        [ "1. Introduction", "svc_buffer_repeater_component.html#autotoc_md268", null ],
+        [ "2. Requirements", "svc_buffer_repeater_component.html#autotoc_md269", null ],
+        [ "3. Design", "svc_buffer_repeater_component.html#autotoc_md270", null ],
+        [ "3.1 Ports", "svc_buffer_repeater_component.html#autotoc_md271", [
+          [ "3.2 Events", "svc_buffer_repeater_component.html#autotoc_md273", null ]
+        ] ],
+        [ "4. Configuration", "svc_buffer_repeater_component.html#autotoc_md274", null ]
+      ] ]
+    ] ],
+    [ "Svc::ComQueue Component", "svc_com_queue_component.html", [
+      [ "Svc::ComQueue (Active Component)", "svc_com_queue_component.html#autotoc_md339", [
+        [ "1. Introduction", "svc_com_queue_component.html#autotoc_md340", null ],
+        [ "2. Assumptions", "svc_com_queue_component.html#autotoc_md341", null ],
+        [ "3. Requirements", "svc_com_queue_component.html#autotoc_md342", null ],
+        [ "4. Design", "svc_com_queue_component.html#autotoc_md343", [
+          [ "4.1. Ports", "svc_com_queue_component.html#autotoc_md344", null ],
+          [ "4.2. State", "svc_com_queue_component.html#autotoc_md345", null ],
+          [ "4.2.1 State Machine", "svc_com_queue_component.html#autotoc_md346", null ],
+          [ "4.3 Model Configuration", "svc_com_queue_component.html#autotoc_md347", null ],
+          [ "4.4 Runtime Setup", "svc_com_queue_component.html#autotoc_md348", null ],
+          [ "4.5 Port Handlers", "svc_com_queue_component.html#autotoc_md349", [
+            [ "3.1.1 portIn handler", "svc_buffer_repeater_component.html#autotoc_md272", null ],
+            [ "4.5.1 buffQueueIn", "svc_com_queue_component.html#autotoc_md350", null ],
+            [ "4.5.2 comQueueIn", "svc_com_queue_component.html#autotoc_md351", null ],
+            [ "4.5.3 comStatusIn", "svc_com_queue_component.html#autotoc_md352", null ],
+            [ "4.5.4 run", "svc_com_queue_component.html#autotoc_md353", null ]
+          ] ],
+          [ "4.6 Telemetry", "svc_com_queue_component.html#autotoc_md354", null ],
+          [ "4.7 Events", "svc_com_queue_component.html#autotoc_md355", null ],
+          [ "4.8 Helper Functions", "svc_com_queue_component.html#autotoc_md356", [
+            [ "4.8.1 sendComBuffer", "svc_com_queue_component.html#autotoc_md357", null ],
+            [ "4.8.2 sendBuffer", "svc_com_queue_component.html#autotoc_md358", null ],
+            [ "4.8.3 processQueue", "svc_com_queue_component.html#autotoc_md359", null ]
+          ] ]
+        ] ]
+      ] ]
+    ] ],
+    [ "Svc::ComStub Component", "svc_com_stub_component.html", [
+      [ "Svc::ComStub (Passive Component)", "svc_com_stub_component.html#autotoc_md360", [
+        [ "1. Introduction", "svc_com_stub_component.html#autotoc_md361", null ],
+        [ "2. Assumptions", "svc_com_stub_component.html#autotoc_md362", null ],
+        [ "3. Requirements", "svc_com_stub_component.html#autotoc_md363", null ],
+        [ "4. Design", "svc_com_stub_component.html#autotoc_md364", [
+          [ "4.1. Ports", "svc_com_stub_component.html#autotoc_md365", null ],
+          [ "4.2. State, Configuration, and Runtime Setup", "svc_com_stub_component.html#autotoc_md366", null ],
+          [ "4.3. Port Handlers", "svc_com_stub_component.html#autotoc_md367", [
+            [ "4.3.1 comDataIn", "svc_com_stub_component.html#autotoc_md368", null ],
+            [ "4.3.1 drvConnected", "svc_com_stub_component.html#autotoc_md369", null ],
+            [ "4.3.1 drvDataIn", "svc_com_stub_component.html#autotoc_md370", null ]
+          ] ]
+        ] ]
+      ] ]
+    ] ],
+    [ "System Resources Component", "md__svc__system_resources_docs_sdd.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -98,20 +175,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "a_m_p_c_s_sequence_8cpp.html",
-"deframer_cfg_8hpp.html",
-"fp_config_8hpp.html#abcf41ba3380be978cc5a29567684f03e",
-"linux_gpio_driver_8hpp_source.html",
-"prm_db_impl_8cpp.html#a5607b42c25cba93543db62ebac53b3a7",
-"svc_buffer_manager_component.html#autotoc_md259",
-"svc_poly_db_component.html#autotoc_md518",
-"udp_receiver_component_impl_cfg_8hpp.html#a3c38a7017e619510b8fd76b09471dc16",
-"class_fw_1_1_active_component_base.html#a9626378dc15b7ac8666b73675d77c5fb",
-"class_fw_1_1_mmap_allocator.html",
-"class_fw_1_1_tlm_buffer.html#a6f5c65cec2205dc06ee5eafaa6b6244da7e44d65108abe8d90173e42012a321e4",
-"class_os_1_1_task.html#a54275e1d4c04ce4a9d4a0248f90a37ca",
-"class_svc_1_1_framer_component_impl.html#a59311bb2406301278863804e616a3c1e",
-"dir_8cc1465ee876f5adf053d83240187177.html",
-"namespacemembers_l.html"
+"command_dispatcher_impl_8hpp_source.html",
+"file_system_8hpp.html#a8bcd5b75e145d2e7f77d68eec9b5ca9fad70aed005c48543f9fcccdf5f097a9c3",
+"health_component_vx_works_checks_8cpp.html",
+"os_2_mac_os_2_system_resources_8cpp.html#aa47464161517d969186019a87ec1587d",
+"svc_active_logger_component.html#autotoc_md184",
+"svc_file_manager_component.html#autotoc_md446",
+"svc_watch_dog_port.html#autotoc_md679",
+"class_drv_1_1_block_driver_impl.html#a0c193be609891ed95f5168a617d9c64c",
+"class_fw_1_1_com_packet.html#a5bd2066f5bb5f92934063be29aee51d5",
+"class_fw_1_1_serializable.html#af5477c76e509ddfb7a60895d0437ffe5",
+"class_os_1_1_file.html#aa167c5af184fd73d6937ee4154696105a626c9f0570ced53ed79104f83b71854b",
+"class_svc_1_1_assert_fatal_adapter_component_impl.html#a54986a734c5845ab02bebf31e2c38e73",
+"class_svc_1_1_timer_val.html#a4fc2d98b64da0118a6344dac4d152203",
+"dir_f7899873501add4619712b66b1cc8508.html",
+"namespace_os.html#a0840df4b7f40767a6f67c85902c202fb",
+"struct_basic_limits.html#a828aee1751b7a69e2496ca9542b07696"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
