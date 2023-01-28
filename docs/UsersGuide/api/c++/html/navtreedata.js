@@ -150,7 +150,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
@@ -176,21 +176,22 @@ var NAVTREEINDEX =
 [
 "a_m_p_c_s_sequence_8cpp.html",
 "command_dispatcher_impl_8hpp_source.html",
-"file_system_8hpp.html#a8bcd5b75e145d2e7f77d68eec9b5ca9fad70aed005c48543f9fcccdf5f097a9c3",
-"health_component_vx_works_checks_8cpp.html",
-"os_2_mac_os_2_system_resources_8cpp.html#aa47464161517d969186019a87ec1587d",
-"svc_active_logger_component.html#autotoc_md184",
-"svc_file_manager_component.html#autotoc_md446",
-"svc_watch_dog_port.html#autotoc_md679",
-"class_drv_1_1_block_driver_impl.html#a0c193be609891ed95f5168a617d9c64c",
-"class_fw_1_1_com_packet.html#a5bd2066f5bb5f92934063be29aee51d5",
-"class_fw_1_1_serializable.html#af5477c76e509ddfb7a60895d0437ffe5",
-"class_os_1_1_file.html#aa167c5af184fd73d6937ee4154696105a626c9f0570ced53ed79104f83b71854b",
-"class_svc_1_1_assert_fatal_adapter_component_impl.html#a54986a734c5845ab02bebf31e2c38e73",
-"class_svc_1_1_timer_val.html#a4fc2d98b64da0118a6344dac4d152203",
-"dir_f7899873501add4619712b66b1cc8508.html",
-"namespace_os.html#a0840df4b7f40767a6f67c85902c202fb",
-"struct_basic_limits.html#a828aee1751b7a69e2496ca9542b07696"
+"file_system_8hpp.html#a8bcd5b75e145d2e7f77d68eec9b5ca9fa5bb2d78c894a14c80ffdae83363ef960",
+"health_component_impl_8hpp.html",
+"os_2_linux_2_system_resources_8cpp.html",
+"string_test_8hpp.html#a1479fc0e946ce742a967206ea707d9b8",
+"svc_fatal_handler_component.html#autotoc_md420",
+"svc_tlm_chan_component.html#autotoc_md646",
+"watchdog_timer_8cpp_source.html",
+"class_fw_1_1_cmd_arg_buffer.html",
+"class_fw_1_1_poly_type.html#ae2b7a61cf5b5a256d5540e3915394ed1",
+"class_os_1_1_directory.html#a8d9fae78c381b552d32dd082d151cdf9",
+"class_os_1_1_watchdog_timer.html#acf830c9bc69fd88db6e6a5723a6e5b61",
+"class_svc_1_1_health_impl.html#a3cef63ab1e5c2e3cf279d8fa67a049c7",
+"dir_9de42d8ac4754dfa703184fb6e90ae29.html",
+"namespace_drv.html#a1c85f9fab0c8763f9fec49eee9fc734da155c88476fb0421132038d5af5f89706",
+"namespacemembers_b.html",
+"struct_svc_1_1_log_file.html#a741da0e2dc05cdba528db3f0e2d0e96e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
