@@ -239,7 +239,7 @@ var NAVTREEINDEX3 =
 "obj_base_8cpp_source.html":[18,0,5,8,1],
 "obj_base_8hpp.html":[18,0,5,8,2],
 "obj_base_8hpp_source.html":[18,0,5,8,2],
-"os.html":[7],
+"os.html":[6],
 "os_2_baremetal_2_file_8cpp.html":[18,0,6,0,1],
 "os_2_baremetal_2_file_8cpp_source.html":[18,0,6,0,1],
 "os_2_baremetal_2_queue_8cpp.html":[18,0,6,0,5],
