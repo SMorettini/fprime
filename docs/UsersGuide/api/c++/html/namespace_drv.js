@@ -12,6 +12,7 @@ var namespace_drv =
     [ "LinuxI2cDriver", "class_drv_1_1_linux_i2c_driver.html", "class_drv_1_1_linux_i2c_driver" ],
     [ "LinuxSpiDriverComponentImpl", "class_drv_1_1_linux_spi_driver_component_impl.html", "class_drv_1_1_linux_spi_driver_component_impl" ],
     [ "LinuxUartDriver", "class_drv_1_1_linux_uart_driver.html", "class_drv_1_1_linux_uart_driver" ],
+    [ "StreamCrossover", "class_drv_1_1_stream_crossover.html", "class_drv_1_1_stream_crossover" ],
     [ "TcpClientComponentImpl", "class_drv_1_1_tcp_client_component_impl.html", "class_drv_1_1_tcp_client_component_impl" ],
     [ "TcpServerComponentImpl", "class_drv_1_1_tcp_server_component_impl.html", "class_drv_1_1_tcp_server_component_impl" ],
     [ "UdpComponentImpl", "class_drv_1_1_udp_component_impl.html", "class_drv_1_1_udp_component_impl" ],
@@ -40,6 +41,12 @@ var namespace_drv =
       [ "SPI_FREQUENCY_10MHZ", "namespace_drv.html#a61d09174558e3591ec1e787fc84c27ffabefdcf962d164e886c9e8461c3dbb26f", null ],
       [ "SPI_FREQUENCY_15MHZ", "namespace_drv.html#a61d09174558e3591ec1e787fc84c27ffa7d506ad62449fc69f3f410494885c9fe", null ],
       [ "SPI_FREQUENCY_20MHZ", "namespace_drv.html#a61d09174558e3591ec1e787fc84c27ffa9231d197ef21b49a0f03334a3dbeed0c", null ]
+    ] ],
+    [ "SpiMode", "namespace_drv.html#a92e6583aea010a65c34368a546ca7d91", [
+      [ "SPI_MODE_CPOL_LOW_CPHA_LOW", "namespace_drv.html#a92e6583aea010a65c34368a546ca7d91af20101713a553f8385d6dcaf293b4cfd", null ],
+      [ "SPI_MODE_CPOL_LOW_CPHA_HIGH", "namespace_drv.html#a92e6583aea010a65c34368a546ca7d91a9c890a636da0e08c744eff117e912c46", null ],
+      [ "SPI_MODE_CPOL_HIGH_CPHA_LOW", "namespace_drv.html#a92e6583aea010a65c34368a546ca7d91a382b9b8212cf1ad925a71929e89f1163", null ],
+      [ "SPI_MODE_CPOL_HIGH_CPHA_HIGH", "namespace_drv.html#a92e6583aea010a65c34368a546ca7d91ad0cbf7423ddda42aee10d1c5e58433ac", null ]
     ] ],
     [ "gpio_export", "namespace_drv.html#ac40776f28c0a05d7058f40b6db312adb", null ],
     [ "gpio_fd_close", "namespace_drv.html#a7277b31c45e1f399f51453d65914068d", null ],
